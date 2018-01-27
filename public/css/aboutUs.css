@@ -1,0 +1,12 @@
+/* 
+  .about_us 每个类都加这个前缀
+*/
+.about_us .doctor1_top{
+  margin: auto;
+  text-align: center;
+  background-image: url(../img/yj.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 8% 0;
+  color:#fff;
+}

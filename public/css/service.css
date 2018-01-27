@@ -1,0 +1,35 @@
+/* service.css */
+
+.service .bing{
+  border-radius: 50%;
+  border:1px solid #ccc;
+  text-align: center;
+  padding:10% 10%;
+  margin:10% 20%;
+}
+.service .bing a{
+  display: block;
+  font-size: 2em;
+}
+.service .bing span{
+  font-size:1em;
+  color:#ccc;
+}
+.service .an{
+ background-image: url(../img/an3.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ padding: 2% 0;
+ margin:7% 0;
+}
+.service .an h1,.service .an p{
+  color:#fff;
+}
+.service .detail p{
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding-top:5%;
+}
+.service .detail span{
+  color:#F13B0B;
+}

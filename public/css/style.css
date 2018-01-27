@@ -1,0 +1,143 @@
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.title{
+    margin: auto;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+.title_top{
+    display: inline-block;
+}
+.service_top{
+    position: relative;
+    background-color: #fff;
+}
+.service_top h4{color:#F13B3B}
+a{
+    color:#F13B0B;
+}
+a:hover{
+    color:#F13B3B;
+}
+.service_img1 {
+    width: 100%;
+    display: block;
+ 
+}
+
+@media(max-width:1000px){
+.img-us{
+    margin:0 auto;
+    width: 80%;
+}
+.intrl-us{
+    padding:10px 5%;
+}
+}
+
+.service_top1 {
+    text-align: left;
+    position: absolute;
+    top: 0%;
+    left: 19%;
+    width: 18%;
+   
+   
+} 
+.service_top2{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    width: 18%;
+}
+.service_top3{
+    text-align: left;
+    position: absolute;
+    left: -7%;
+    top: 24%;
+    width: 20%;
+    margin-left: 2%;
+}
+.service_top4{
+    text-align: left;
+    position: absolute;
+    left: 4%;
+    top: 66%;
+    width: 20%;
+}
+.service_top5{
+    text-align: left;
+    position: absolute;
+    top: 73%;
+    right: 36%;
+    width: 18%;
+}
+.service_top6{
+    text-align: left;
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    width: 17%;
+    margin-right: 2%;
+}
+
+.doctor_top{
+    margin: auto;
+    text-align: center;
+    background-image: url(../img/d2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 8% 0;
+    color:#fff;
+}
+
+.doctor{
+    position: relative;
+    display: flex;
+   
+}
+.doctor>div{
+    flex-shrink:0; 
+}
+.doctor>div>img{
+    margin:0 auto;
+}
+
+
+
+.header{
+    margin:2% 0;
+}
+.footer{
+    height:100px;
+    line-height: 100px;
+    background-color:rgb(43,43,43);
+    color:#fff;
+    border-radius: 5px;
+    margin:5% 0;
+}
+.footer .toTop{
+    cursor: pointer;
+    display: inline-block;
+    background: #F13A3A;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    display: none;
+    line-height: 45px;
+}
+.footer .arrow{
+    color: #fff;
+    font-size: 30px;
+    padding: 8px;
+    
+}
